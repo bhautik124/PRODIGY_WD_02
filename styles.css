@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(120deg, #000428, #004e92);
+  color: white;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+.stopwatch {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.time-display {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls button {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  background: #61dafb;
+  color: #282c34;
+  transition: background 0.3s ease;
+}
+
+.controls button:hover {
+  background: #21a1f1;
+}
+
+.laps {
+  text-align: left;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.laps h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#lapsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#lapsList li {
+  padding: 5px 0;
+  border-bottom: 1px solid #61dafb;
+  color: #ffd700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
